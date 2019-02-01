@@ -117,7 +117,7 @@ function closeBitcoinApi() {
     var http1 = require('http');
     const options1 = {
       hostname: 'localhost',
-      port: 38220,
+      port: 37220,
       path: '/api/node/shutdown',
       method: 'POST'
   };
@@ -134,7 +134,7 @@ function closeImpleumApi() {
     var http2 = require('http');
     const options2 = {
       hostname: 'localhost',
-      port: 39222,
+      port: 38222,
       path: '/api/node/shutdown',
       method: 'POST'
     };
