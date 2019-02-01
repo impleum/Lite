@@ -24,8 +24,8 @@ cd ImpleumBitcoinFullNode/Impleum.BreezeD
 dotnet build
 
 # Run the Bitcoin and Impleum full-SPV daemons on testnet in separate terminals
-dotnet run -testnet
-dotnet run impleum -testnet
+dotnet run
+dotnet run impleum
 ```
 
 ## UI Build
