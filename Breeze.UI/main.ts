@@ -163,7 +163,7 @@ function startBitcoinApi() {
 
 
   if(!testnet) {
-    bitcoinProcess = spawnBitcoin(apiPath, ['-testnet'], {
+    bitcoinProcess = spawnBitcoin(apiPath, [''], {
       detached: true
     });
   } else if (testnet) {

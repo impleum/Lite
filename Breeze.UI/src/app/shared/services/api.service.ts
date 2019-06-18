@@ -10,7 +10,9 @@ import 'rxjs/add/operator/startWith';
 import { GlobalService } from './global.service';
 
 import { WalletCreation } from '../classes/wallet-creation';
-import { WalletRecovery } from '../classes/wallet-recovery';
+import { WalletRecovery } 
+
+ '../classes/wallet-recovery';
 import { WalletLoad } from '../classes/wallet-load';
 import { WalletInfo } from '../classes/wallet-info';
 import { Mnemonic } from '../classes/mnemonic';
@@ -27,9 +29,9 @@ export class ApiService {
 
     private headers = new Headers({'Content-Type': 'application/json'});
     private pollingInterval = 3000;
-    private bitcoinApiUrl = 'http://localhost:38220/api';
-    private stratisApiUrl = 'http://localhost:39222/api';
-    private currentApiUrl = 'http://localhost:39222/api';
+    private bitcoinApiUrl = 'http://localhost:37220/api';
+    private stratisApiUrl = 'http://localhost:38222/api';
+    private currentApiUrl = 'http://localhost:38222/api';
 
     private getCurrentCoin() {
       let currentCoin = this.globalService.getCoinName();
