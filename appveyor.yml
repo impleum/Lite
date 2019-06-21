@@ -53,8 +53,8 @@ install:
       Write-Host "--> git submodule" -foregroundcolor "magenta"
       git submodule update --init --recursive
       
-      Write-Host "--> node 8.11.2" -foregroundcolor "magenta"
-      Install-Product node 8.11.2
+      Write-Host "--> node 10" -foregroundcolor "magenta"
+      Install-Product node 10
       
       Write-Host "--> npm 6.2.0" -foregroundcolor "magenta"
       npm install -g npm@6.2.0

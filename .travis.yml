@@ -39,7 +39,7 @@ cache:
 # https://github.com/travis-ci/travis-ci/issues/7728
 
 install:
-- nvm install 8.11.2
+- nvm install 10
 - npm install -g npm@6.2.0
 
 before_script:
