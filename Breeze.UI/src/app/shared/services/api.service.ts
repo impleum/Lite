@@ -10,9 +10,7 @@ import 'rxjs/add/operator/startWith';
 import { GlobalService } from './global.service';
 
 import { WalletCreation } from '../classes/wallet-creation';
-import { WalletRecovery } 
-
- '../classes/wallet-recovery';
+import { WalletRecovery } from '../classes/wallet-recovery';
 import { WalletLoad } from '../classes/wallet-load';
 import { WalletInfo } from '../classes/wallet-info';
 import { Mnemonic } from '../classes/mnemonic';
