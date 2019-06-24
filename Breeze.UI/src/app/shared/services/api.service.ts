@@ -85,7 +85,7 @@ export class ApiService {
      */
     createStratisWallet(data: WalletCreation): Observable<any> {
       return this.http
-        .post(this.stratisApiUrl + '/wallet/create/', JSON.stringify(data), {headers: this.headers})
+        .post(this.stratisApiUrl + '/wallet/create/', JSON.stringify(Object.assign({},data,{passphrase: ''})), {headers: this.headers})
         .map((response: Response) => response);
     }
 

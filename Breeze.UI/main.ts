@@ -193,7 +193,7 @@ function startImpleumApi() {
   }
 
   if (!testnet) {
-    impleumProcess = spawnImpleum(apiPath, ['impleum', '-testnet'], {
+    impleumProcess = spawnImpleum(apiPath, ['impleum', ''], {
       detached: true
     });
   } else if (testnet) {
